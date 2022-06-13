@@ -11,7 +11,7 @@ const coinsSymbolsStr = coinsSymbolsArr.join(',');
 // Fetch latest data for symbols (invalid coins will be ignored) and convert to EUR
 let response = await fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=' + coinsSymbolsStr + '&skip_invalid=true' + '&convert=EUR',{
     headers: {
-        "X-CMC_PRO_API_KEY": "3c5331eb-e68f-4324-8c8e-eefcec038f26"
+        "X-CMC_PRO_API_KEY": "PLEASE_INSERT_YOUR_API_KEY"
     }        
 });
 
