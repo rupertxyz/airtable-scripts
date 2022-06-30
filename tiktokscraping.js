@@ -2,7 +2,7 @@ const table = base.getTable("Videos");
 const record = await input.recordAsync("Please select a record", table);
 
 if(record) {
-    const response = await fetch('https://api.apify.com/v2/acts/sauermar~free-tiktok-scraper/run-sync-get-dataset-items?token=apify_api_JEabNitruoVlzHEcXiAsI8QsgdqMYt0uZoIX', {
+    const response = await fetch('https://api.apify.com/v2/acts/sauermar~free-tiktok-scraper/run-sync-get-dataset-items?token=[YOUR API KEY]', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
